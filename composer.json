@@ -14,7 +14,7 @@
     ],
     "require": {
         "php"              : ">=5.3.5",
-        "druid628/et-wsse" : "1.0.3"
+        "druid628/et-wsse" : "1.0.2"
     },
     "require-dev": {
         "satooshi/php-coveralls": "dev-master"
@@ -28,5 +28,11 @@
         "psr-0": { 
             "druid628\\exactTarget": "src/" 
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/blubolt/et-wsse-php"
+        }
+    ]
 }
